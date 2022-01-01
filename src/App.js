@@ -9,7 +9,7 @@ class App extends React.Component {
         <LancerDe />
       </div>
     );
-}
+  }
 }
 
 export default App;

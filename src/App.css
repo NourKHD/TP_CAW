@@ -1,38 +1,52 @@
-.App {
+#App {
+  margin-left: 20px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.center{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#title{
+  font-size: 70px;
+  font-style: italic;
+  color: goldenrod;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img{
+  width: 200px;
+  padding: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bouton{
+  margin-top: 80px;
+  
+}
+#play{
+  background: linear-gradient(90deg, rgba(46,121,9,1) 0%, rgba(66,195,2,0.832378223495702) 35%, rgba(170,242,110,0.7535816618911175) 100%);
   color: white;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 20%;
+  font-size: 50px;
+  margin-right: 40px;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+#reset{
+  color: white;
+  background: linear-gradient(90deg, rgba(121,9,9,1) 0%, rgba(195,2,2,0.832378223495702) 35%, rgba(255,134,134,0.7535816618911175) 100%); 
+  border-color: white;
+  border-width: 2px;
+  border-radius: 20%;
+  font-size: 50px;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+

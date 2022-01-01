@@ -11,7 +11,7 @@ class LancerDe extends React.Component{
         };
         this.lancer = this.lancer.bind(this);
     }
-    // fonction flèche qui modifie les stats de De1 et De2 avec un nbr aléatoire
+    // fonction flèche qui modifie les stats de De1 et De2 avec un nbr aléatoire [1..6]
     lancer = ()=>{ 
         this.setState({
         De1: Math.floor(Math.random() * 6) + 1,

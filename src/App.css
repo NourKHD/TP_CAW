@@ -3,24 +3,27 @@
   font-size: 20px;
   color: black;
   font-family: 'Times New Roman', Times, serif;
-
 }
+
 .center{
   text-align: center;
 }
+
 #title{
   font-size: 70px;
   font-style: italic;
   color: goldenrod;
 }
+
 img{
   width: 200px;
   padding: 10px;
 }
+
 .bouton{
-  margin-top: 80px;
-  
+  margin-top: 80px;  
 }
+
 #play{
   background: linear-gradient(90deg, rgba(46,121,9,1) 0%, rgba(66,195,2,0.832378223495702) 35%, rgba(170,242,110,0.7535816618911175) 100%);
   color: white;
@@ -31,8 +34,8 @@ img{
   margin-right: 40px;
   padding: 20px;
   font-family: 'Times New Roman', Times, serif;
-
 }
+
 #reset{
   color: white;
   background: linear-gradient(90deg, rgba(121,9,9,1) 0%, rgba(195,2,2,0.832378223495702) 35%, rgba(255,134,134,0.7535816618911175) 100%); 
@@ -42,8 +45,6 @@ img{
   font-size: 50px;
   padding: 20px;
   font-family: 'Times New Roman', Times, serif;
-
-
 }
 
 

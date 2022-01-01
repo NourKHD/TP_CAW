@@ -15,10 +15,12 @@ class De extends React.Component{
         this.resultat = this.resultat.bind(this);
         this.reset = this.reset.bind(this);
     }
+    // cette méthode nous permet de changer l'état des stats
     resultat(){
             this.a = this.props.De1;
             this.b = this.props.De2;
-            if(this.a===this.b){
+            // si les 2 faces égaux 
+            if(this.a === this.b){
                 this.setState({
                     text:"YOU WIN !!!",
                     score: (this.state.score)+1,
@@ -26,7 +28,7 @@ class De extends React.Component{
                     De2img:<img src={"./DE"+this.b+".png"} alt="DE2"/>,
                     count: this.state.count+1,
                 });
-            } else{  
+            } else{ // sinon on ne modifie pas score 
                 this.setState({
                     text:"Try Again",
                     De1img:<img src={"./DE"+this.a+".png"} alt="DE1"/>,
@@ -35,6 +37,7 @@ class De extends React.Component{
                 });
             }
         }
+    // la méthode qui fait appel à la méthode resultat lorsqu'on clique sur le bouton play
     handleClick(e){
         this.props.fun();
         this.resultat();
@@ -45,7 +48,7 @@ class De extends React.Component{
         });
         }
     }
-    
+    // la méthode qui nous permet de rejouer lorsqu'on clique sur reset
     reset(e){
         e.preventDefault();
         this.setState(this.initialState);
